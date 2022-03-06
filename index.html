@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <!-- one div for the top(header) and two divs within for navigation
+on both ends, div for google image, div for search bar, div for buttons,
+div for paragraph, wrap searchbar buttons in div, footer div, three divs
+within footer-->
+  <body>
+    <header>
+      <div id="left-header-nav">
+        <ul class="top-lists">
+          <li class="top-list-item"><a>About</a></li>
+          <li class="top-list-item"><a>Store</a></li>
+        </ul>
+      </div>
+      <div id="right-header-nav">
+        <ul class="top-lists">
+          <li class="top-list-item" id="blacklist">Gmail</li>
+          <li class="top-list-item" id="blacklist">Images</li>
+          <li id="appicon">
+            <div id="appicon-div">
+              <img src="appicon.png" alt="Applications" />
+            </div>
+          </li>
+          <li id="top-list-button">
+            <button id="sign-in-button">Sign In</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div id="google-image">
+        <a href="https://www.google.com/" target="_blank">
+          <img src="googlelogo.png" alt="" />
+        </a>
+      </div>
+      <div id="search">
+        <form>
+            <div id = "magnifying-glass">
+                <img src = "magnifying_glass.jpg" alt = "magnifying glass">
+            </div>
+          <input id="search-bar" type="text" />
+          <div id = "microphone">
+              <img src = "googlemicrophone.png" alt = "microphone">
+          </div>
+        </form>
+      </div>
+      <div class="buttons">
+        <div><button>Google Search</button></div>
+        <div><button>I'm Feeling Lucky</button></div>
+      </div>
+      <p id="other-languages">
+        Other Languages you can use Google:
+        <span id="language"> English </span>
+      </p>
+    </main>
+    <footer>
+      <div id="country">Turkey</div>
+      <div>
+        <hr />
+        <div id="footer-lists">
+          <div class="footer-nav">
+            <ul>
+              <li>Advertising</li>
+              <li>Business</li>
+              <li>How Search Works</li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <ul>
+              <li>Privacy</li>
+              <li>Terms</li>
+              <li>Settings</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
